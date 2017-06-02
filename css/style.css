@@ -93,6 +93,7 @@ body{
 			font-weight: bold;
 			color: #131306;
 			text-align:right;
+			cursor:pointer;
 		}
 
 #newNote{
