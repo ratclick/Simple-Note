@@ -15,3 +15,5 @@ Minimalstic Note App with core Javascript, css and Html
 * Does Not store in Memory( can do so by storing List in Browser Memory)
 * Very Basic Design
 * No security checks/validations
+</br>
+<a href="https://ratclick.github.io/Simple-Note/">SEE DEMO HERE</a>
