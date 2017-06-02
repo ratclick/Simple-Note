@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" encoding="utf-8">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css\style.css" type="text/css" />
+        <script type="text/javascript" src="js\default.js"></script>
+        <script>
+            
+            
+        </script>
+    </head>
+    <body onload="loaded()">
+        <div id="blackOverlay" style="">
+        	<table id="newNote" border=0>
+    	        <tr>
+	                <td rowspan="2"><textarea name="noteText" id="noteText" rows="10" cols="50" maxlength="500">Enter text here...</textarea></td>
+                	<td><span id="close" onclick="closeOverlay()">Close</span></td>
+            	</tr>
+            	<tr>
+                	<td><input id="sButton" type="submit" value="Submit"  name="submit" style="display:inline-block"/></td>
+            	</tr>
+        	</table>
+        </div>    
+        
+
+        <div id="workArea">
+        	<div id="noteArea" ondblclick="" >
+                
+            </div>
+            
+            <div id="optionArea">
+                <input type="button" value="New Note" onclick="overlay()">
+            </div>
+        </div>
+        
+    </body>
+</html>

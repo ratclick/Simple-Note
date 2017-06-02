@@ -1,0 +1,146 @@
+h1{
+    font-size:50px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+#blackOverlay{
+    background-color:transparent;
+    visibility: hidden;
+    position:fixed;
+    z-index:50;
+}
+
+#workArea{
+    position: absolute;
+    z-index:0;
+    width:100%;
+    min-height: 200px;
+    background-color:gray;
+    text-align:center;
+    overflow-y: scroll;
+}
+
+#noteArea{
+    position: absolute;
+	z-index: 20;
+	margin:0px;
+	
+}
+
+
+.sticky{
+			height:220px;
+			width:180px;
+			background-color:  #fafe68 ;
+			display:inline-grid;
+			margin:5px;
+			overflow:hidden;
+			text-align: justify;
+			vertical-align: top;
+			border: 1px inset black;
+			z-index:10;
+		}
+
+		.sticky table{
+			box-sizing: content-box;
+			text-align: justify;
+			line-height: 1em;
+		}
+
+		.sticky p{
+		    font-family: "Comic Sans MS", cursive, sans-serif;
+			width:172px;
+			overflow-wrap: break-word;
+			line-height: 1.2em;
+			text-decoration: underline;
+		}
+
+#menu{
+			width: 100px;
+			background-color: #cbcbc2;
+			border:1px outset grey;
+			visibility: hidden;
+			position:fixed;
+			z-index: 99;
+		}
+		
+#pallete{
+    
+    border:1px outset grey;
+    visibility: hidden;
+    position:fixed;
+    width:110px;
+    z-index: 99;
+}
+		
+		#menu-overlay{
+		    background-color:transparent;
+		    position: fixed;
+		    z-index: 98;
+		}
+
+		.menu-item{
+			border-bottom: 1px inset #cbcbc2;
+			border-left: 1px solid #b9b9b2;
+			border-right: 1px solid #b9b9b2;
+			font-size: 11px;
+			font-family: 'AvenirNextLTPro-Bold',sans-serif;
+			font-weight: bold;
+			color: #131306;
+			text-align:right;
+		}
+
+#newNote{
+    min-width:300px;
+    min-height:100px;
+    display: inline-block;
+    background-color:black;
+    color:white;
+    visibility: hidden;
+    z-index:100;
+    margin-top:150px;
+    opacity: 1 !important;
+}
+
+
+#newNote td{
+    text-align:center;
+}
+
+#noteText{
+    border:0;
+    background-color:#fafe68;
+    font-family: cursive;
+    font-variant: small-caps;
+    text-align: center;
+    z-index:101;
+}
+
+
+
+#close{
+    z-index: 99;
+    cursor: pointer;
+}
+
+#optionArea{
+    text-align: center;
+    width:100px;
+    overflow:hidden;
+    position: absolute;
+    z-index:100;
+    right:30px;
+    top:10px;
+}
+
+#optionArea input[type=button]{
+    text-align: left;
+    position: fixed;
+    z-index:112;
+    color:blue;
+}
