@@ -12,6 +12,13 @@
 #  **********************************
 </pre>
 Minimalstic Note App with core Javascript, css and Html
+Allows:
+* creating note 
+* Editing Note
+* Deleting Note
+* Changing Color Of Note
+
+Other:
 * Does Not store in Memory( can do so by storing List in Browser Memory)
 * Very Basic Design
 * No security checks/validations
