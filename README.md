@@ -11,6 +11,8 @@
 #  *|_|*\_|\___/*\__\___|************
 #  **********************************
 </pre>
+<a href="https://ratclick.github.io/Simple-Note/">SEE DEMO HERE</a>
+
 Minimalstic Note App with core Javascript, css and Html
 Allows:
 * creating note 
@@ -23,4 +25,4 @@ Other:
 * Very Basic Design
 * No security checks/validations
 </br>
-<a href="https://ratclick.github.io/Simple-Note/">SEE DEMO HERE</a>
+
